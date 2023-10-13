@@ -1,0 +1,18 @@
+<div class="container">
+    <div class="heading1">
+        <h1>Image  Colossal</h1>
+    </div>
+    <div class="bottom">
+        <button (click)="prev_img()"><i class="fas fa-solid fa-chevron-left" style="color:white"></i>Previous</button>
+        <!-- <div class="img_area">
+          <img [src]="show_img()" alt="Image_Colossal">
+        </div> -->
+        <img [src]="show_img()" alt="Image_Colossal">
+        <button (click)="next_img()"><i class="fas fa-solid fa-chevron-right" style="color:white"></i><br>Next</button>
+    </div>
+    <!-- <div class="dots">
+        <div *ngFor="let i in images; let ind =index"
+        [class.active]="ind===cur_img_i" (click)="goToSlide(ind)">
+        ● </div>
+    </div> -->
+</div>

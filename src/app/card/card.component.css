@@ -1,0 +1,48 @@
+.container{
+    background-color: rgb(219, 216, 229);
+    margin:20px;
+    padding: 0;
+    height: 100vh;
+    border-radius: 10px;
+    border:5px solid black;
+
+}
+.heading1{
+    text-align: center;
+    font-weight: bold;
+    font-size: large;
+    color:black;
+    margin-bottom: 50px;
+}
+.h1{margin-top: 20px;}
+
+.bottom{
+    margin: 30px;
+    height: 500;
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+.bottom button{
+    background-color: rgb(21, 29, 169);
+    color:white;
+    height:100px;
+    width: 100px;
+    font-size: 20px;
+    padding: auto;
+    font-weight: bold;
+
+}
+/* .img_area{
+    max-width: 700px;
+    max-height: 500px;
+    border-radius: 100px;
+} */
+.bottom img{
+    border-radius: 10px;
+    width: 500px;
+    height: 500px;
+    border:10px solid black;
+}
